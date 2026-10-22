@@ -21,3 +21,27 @@ come at round 2, along with Adobe Fonts type pairings. Nothing below is final:
 - Sky `#7FCBE3` · Leaf `#6ED3A8` · Cream `#F6F1E8` · Gold `#E4A951`
 
 Type is Inter throughout, standing in until the Adobe Fonts pairings are chosen.
+
+---
+
+# Round 2 — colour + type
+
+`round2-board.png` — three combinations applied to concept A, each with the real
+name and the real tagline, a reversed version on the primary, the palette with
+hex codes and roles, and **computed** WCAG contrast figures.
+
+All six fonts are available in Adobe Fonts (checked with `find_fonts`, all
+entitled). The TTFs in `fonts/` come from Google Fonts, where the same families
+are published — that is what lets these boards render the pairings rather than
+describe them.
+
+| # | Palette | Type pairing |
+| --- | --- | --- |
+| 1 | Linen & Teal — warm, homely | Quicksand Bold + Nunito Sans |
+| 2 | Harbour — cool, trustworthy | Poppins SemiBold + Fira Sans |
+| 3 | Morning — soft, airy | Montserrat Bold + Playwrite IE (script tagline) |
+
+Every primary was darkened from its first draft until white-on-primary and
+primary-on-background both cleared WCAG AA (4.5:1). The first drafts failed:
+#0E8C86 gave 4.1:1 and #1FA39B gave 3.1:1 for white on primary, which would
+have broken buttons and small teal text.
